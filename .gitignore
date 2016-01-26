@@ -1,0 +1,11 @@
+*.pyc
+node_modules/
+.venv/
+.idea/
+target/
+*.iml
+tmp/
+deploy/
+*.bak
+scratch/
+.DS_Store
