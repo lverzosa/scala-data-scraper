@@ -8,7 +8,7 @@ import scala.util.parsing.json.JSON
   */
 object ScraperMain {
   def main(args: Array[String]) {
-    val uri:String = "https://api.github.com/repos/lverzosa/scala-data-scraper"
+    val uri:String = "https://api.github.com/repos/lverzosa/scala-experiments"
     val result:String = Source.fromURL(uri).mkString
     val json:Option[Any] = JSON.parseFull(result)
 
